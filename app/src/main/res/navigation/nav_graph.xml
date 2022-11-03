@@ -8,11 +8,16 @@
     <fragment
         android:id="@+id/invoiceFragment"
         android:name="com.example.catchat.InvoiceFragment"
-        android:label="Invoice"
+        android:label="Inbox"
         tools:layout="@layout/fragment_invoice" />
     <fragment
         android:id="@+id/helpFragment"
         android:name="com.example.catchat.HelpFragment"
         android:label="Help"
         tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/sentItemsFragment"
+        android:name="com.example.catchat.SentItemsFragment"
+        android:label="fragment_sent_items"
+        tools:layout="@layout/fragment_sent_items" />
 </navigation>
