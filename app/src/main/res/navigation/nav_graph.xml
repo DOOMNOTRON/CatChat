@@ -18,6 +18,6 @@
     <fragment
         android:id="@+id/sentItemsFragment"
         android:name="com.example.catchat.SentItemsFragment"
-        android:label="fragment_sent_items"
+        android:label="Sent Items"
         tools:layout="@layout/fragment_sent_items" />
 </navigation>
